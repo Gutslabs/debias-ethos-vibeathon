@@ -39,7 +39,7 @@ export function Navbar() {
                         </svg>
                     </a>
                     <a
-                        href="https://github.com/Gutslabs"
+                        href="https://github.com/Gutslabs/debias-ethos-vibeathon"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-500 hover:text-white transition-colors"
