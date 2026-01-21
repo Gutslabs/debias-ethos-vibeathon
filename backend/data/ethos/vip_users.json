@@ -1,0 +1,218 @@
+{
+  "fetched_at": "2026-01-21T14:13:21.009Z",
+  "users": [
+    {
+      "id": 51742,
+      "profileId": 3317,
+      "displayName": "K A L E O",
+      "username": "CryptoKaleo",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1997028670465286144/VbjPXvPg.jpg",
+      "description": null,
+      "score": 1684,
+      "status": "ACTIVE",
+      "userkeys": [
+        "profileId:3317",
+        "address:0x442399A34666233173D0db07F51eEca0fe9146fc",
+        "address:0xD5cB8C22f221e8b5cd7d491937210182f573EdEA",
+        "service:x.com:906234475604037637"
+      ],
+      "xpTotal": 100000,
+      "xpStreakDays": 0,
+      "xpRemovedDueToAbuse": false,
+      "influenceFactor": 371,
+      "influenceFactorPercentile": 50,
+      "mommyPawnshopBingo": null,
+      "links": {
+        "profile": "https://app.ethos.network/profile/x/CryptoKaleo",
+        "scoreBreakdown": "https://app.ethos.network/profile/x/CryptoKaleo/score"
+      },
+      "stats": {
+        "review": {
+          "received": {
+            "negative": 8,
+            "neutral": 11,
+            "positive": 233
+          }
+        },
+        "vouch": {
+          "given": {
+            "amountWeiTotal": "0",
+            "count": 0
+          },
+          "received": {
+            "amountWeiTotal": "52248016050122628",
+            "count": 1
+          }
+        }
+      }
+    },
+    {
+      "id": 219184,
+      "profileId": null,
+      "displayName": "Mayne",
+      "username": "Tradermayne",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/2005767506175127552/B7WiObIW.jpg",
+      "description": null,
+      "score": 1638,
+      "status": "INACTIVE",
+      "userkeys": [
+        "service:x.com:2446024556"
+      ],
+      "xpTotal": 0,
+      "xpStreakDays": 0,
+      "xpRemovedDueToAbuse": false,
+      "influenceFactor": 306,
+      "influenceFactorPercentile": 41,
+      "mommyPawnshopBingo": null,
+      "links": {
+        "profile": "https://app.ethos.network/profile/x/Tradermayne",
+        "scoreBreakdown": "https://app.ethos.network/profile/x/Tradermayne/score"
+      },
+      "stats": {
+        "review": {
+          "received": {
+            "negative": 0,
+            "neutral": 4,
+            "positive": 59
+          }
+        },
+        "vouch": {
+          "given": {
+            "amountWeiTotal": "0",
+            "count": 0
+          },
+          "received": {
+            "amountWeiTotal": "0",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "id": 2071406,
+      "profileId": null,
+      "displayName": "Cred",
+      "username": "CryptoCred",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1444398863268339717/2jQUsbjB.jpg",
+      "description": null,
+      "score": 1420,
+      "status": "INACTIVE",
+      "userkeys": [
+        "service:x.com:899558268795842561"
+      ],
+      "xpTotal": 0,
+      "xpStreakDays": 0,
+      "xpRemovedDueToAbuse": false,
+      "influenceFactor": 255,
+      "influenceFactorPercentile": 34,
+      "mommyPawnshopBingo": null,
+      "links": {
+        "profile": "https://app.ethos.network/profile/x/CryptoCred",
+        "scoreBreakdown": "https://app.ethos.network/profile/x/CryptoCred/score"
+      },
+      "stats": {
+        "review": {
+          "received": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 6
+          }
+        },
+        "vouch": {
+          "given": {
+            "amountWeiTotal": "0",
+            "count": 0
+          },
+          "received": {
+            "amountWeiTotal": "0",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "id": 278170,
+      "profileId": null,
+      "displayName": "Hsaka",
+      "username": "HsakaTrades",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1690929913270792192/6n-PzBnB.jpg",
+      "description": null,
+      "score": 1605,
+      "status": "INACTIVE",
+      "userkeys": [
+        "service:x.com:944686196331966464"
+      ],
+      "xpTotal": 0,
+      "xpStreakDays": 0,
+      "xpRemovedDueToAbuse": false,
+      "influenceFactor": 376,
+      "influenceFactorPercentile": 50,
+      "mommyPawnshopBingo": null,
+      "links": {
+        "profile": "https://app.ethos.network/profile/x/HsakaTrades",
+        "scoreBreakdown": "https://app.ethos.network/profile/x/HsakaTrades/score"
+      },
+      "stats": {
+        "review": {
+          "received": {
+            "negative": 0,
+            "neutral": 4,
+            "positive": 37
+          }
+        },
+        "vouch": {
+          "given": {
+            "amountWeiTotal": "0",
+            "count": 0
+          },
+          "received": {
+            "amountWeiTotal": "0",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "id": 3129865,
+      "profileId": null,
+      "displayName": "RookieXBT 🧲",
+      "username": "RookieXBT",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/2008538132623597568/toy__Y12.jpg",
+      "description": null,
+      "score": 1374,
+      "status": "INACTIVE",
+      "userkeys": [
+        "service:x.com:2545086098"
+      ],
+      "xpTotal": 0,
+      "xpStreakDays": 0,
+      "xpRemovedDueToAbuse": false,
+      "influenceFactor": 237,
+      "influenceFactorPercentile": 32,
+      "mommyPawnshopBingo": null,
+      "links": {
+        "profile": "https://app.ethos.network/profile/x/RookieXBT",
+        "scoreBreakdown": "https://app.ethos.network/profile/x/RookieXBT/score"
+      },
+      "stats": {
+        "review": {
+          "received": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 3
+          }
+        },
+        "vouch": {
+          "given": {
+            "amountWeiTotal": "0",
+            "count": 0
+          },
+          "received": {
+            "amountWeiTotal": "0",
+            "count": 0
+          }
+        }
+      }
+    }
+  ]
+}

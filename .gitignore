@@ -1,0 +1,68 @@
+# Debias - Root Level .gitignore
+
+# Environment files (CRITICAL - contains API keys)
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+fetch_log.txt
+chart_gen_log.txt
+server.log
+fetch_traders.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Twitter cookies (contains session data)
+cookies.json
+**/twitter_cookies.json
+
+# Scripts with hardcoded credentials (DO NOT COMMIT)
+**/twitter_helper.cjs
+**/working_search.cjs
+
+# Scraped data files (may contain sensitive info)
+*tweets.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel
+
+# Cache
+.cache/
+.eslintcache
+
+# Misc
+*.pem
+*.tgz
