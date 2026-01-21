@@ -9,11 +9,11 @@ export async function GET(
     try {
         const { username } = await params;
 
+        // For Vercel deployment, data is in frontend/src/data
+        const dataDir = path.join(process.cwd(), 'src', 'data');
+
         const analysisPath = path.join(
-            process.cwd(),
-            '..',
-            'backend',
-            'data',
+            dataDir,
             'analysis',
             `${username}_calls.json`
         );
@@ -29,23 +29,8 @@ export async function GET(
 
         // Try to enrich with avatar and score from leaderboard or VIP users
         try {
-            const leaderboardPath = path.join(
-                process.cwd(),
-                '..',
-                'backend',
-                'data',
-                'ethos',
-                'leaderboard.json'
-            );
-
-            const vipPath = path.join(
-                process.cwd(),
-                '..',
-                'backend',
-                'data',
-                'ethos',
-                'vip_users.json'
-            );
+            const leaderboardPath = path.join(dataDir, 'ethos', 'leaderboard.json');
+            const vipPath = path.join(dataDir, 'ethos', 'vip_users.json');
 
             let foundUser = null;
 

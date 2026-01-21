@@ -4,10 +4,11 @@ import path from 'path';
 
 export async function GET() {
     try {
-        const backendDir = path.join(process.cwd(), '..', 'backend');
-        const leaderboardPath = path.join(backendDir, 'data', 'ethos', 'leaderboard.json');
-        const vipPath = path.join(backendDir, 'data', 'ethos', 'vip_users.json');
-        const analysisDir = path.join(backendDir, 'data', 'analysis');
+        // For Vercel deployment, data is in frontend/src/data
+        const dataDir = path.join(process.cwd(), 'src', 'data');
+        const leaderboardPath = path.join(dataDir, 'ethos', 'leaderboard.json');
+        const vipPath = path.join(dataDir, 'ethos', 'vip_users.json');
+        const analysisDir = path.join(dataDir, 'analysis');
 
         if (!fs.existsSync(leaderboardPath)) {
             return NextResponse.json(
