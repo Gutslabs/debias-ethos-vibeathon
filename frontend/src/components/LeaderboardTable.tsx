@@ -43,7 +43,7 @@ export function LeaderboardTable({ data }: LeaderboardTableProps) {
                 <th className="py-4 px-4 text-right font-medium">AVG MAX</th>
                 <th className="py-4 px-4 text-right font-medium">ACTIVE</th>
                 <th className="py-4 px-4 text-right font-medium">TRADES</th>
-                <th className="py-4 px-4 text-right font-medium text-green-500">DEBIAS SCORE</th>
+                <th className="py-4 px-4 text-right font-medium text-green-500">ETHOS SCORE</th>
             </tr>
         </thead>
     );

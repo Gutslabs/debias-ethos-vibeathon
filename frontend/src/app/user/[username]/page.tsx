@@ -116,7 +116,7 @@ export default function UserProfilePage({ params }: PageProps) {
                                         </div>
                                         <div className="flex items-baseline gap-1.5">
                                             <span className="text-green-400 font-bold text-sm tracking-tight font-mono">{(userData as any).ethosScore.toLocaleString()}</span>
-                                            <span className="text-green-500/50 text-[10px] font-bold tracking-widest uppercase">DEBIAS SCORE</span>
+                                            <span className="text-green-500/50 text-[10px] font-bold tracking-widest uppercase">ETHOS SCORE</span>
                                         </div>
                                     </div>
                                 )}
